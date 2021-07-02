@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import RandomJokesList from './components/jokes/randomJokes/RandomJokesList';
+import RandomJokesList from './components/jokes/randomJokes/RandomJokesList.js';
 function App() {
   return (
     <div className="App">

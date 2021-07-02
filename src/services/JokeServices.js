@@ -1,5 +1,5 @@
 import axios from 'axios';
-import * as AppConstant from '../AppConstant/AppConstant';
+import * as AppConstant from '../AppConstant/AppConstant.js';
 
 const baseURL = AppConstant.API_URL;
 

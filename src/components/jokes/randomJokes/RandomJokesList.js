@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Joke from '../Joke';
-import { getRandomJokes } from '../../../services/JokeServices';
+import Joke from '../Joke.js';
+import { getRandomJokes } from '../../../services/JokeServices.js';
 
 const RandomJokesList = props => {
   const [jokes, setJokes] = useState([]);
